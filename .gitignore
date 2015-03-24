@@ -1,0 +1,6 @@
+.classpath
+/build
+/.settings
+/bin
+.DS_Store
+
