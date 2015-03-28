@@ -14,7 +14,7 @@ public class HelloWorldController {
     @RequestMapping("/hello")
 	public ModelAndView helloWorld1(HttpServletRequest request,  HttpServletResponse response) {
 
-		String message = "HELLO SPRING MVC HOW R U, new msg";
+		String message = "HELLO SPRING MVC HOW R U, new msg from pulkit";
 		return new ModelAndView("hello", "message", message);
 	}
 	
