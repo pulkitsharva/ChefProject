@@ -11,10 +11,10 @@ public class HelloWorldController {
 	private final static String CONSUMER_KEY = "CPHP67I0NKJiUiPprDYt1fq6b";
     private final static String CONSUMER_KEY_SECRET = "56s9rXUcqzhs9aMoL2kkEtECEb0N9sTZnotJE2qIDwn9FyTXYi";
 
-    @RequestMapping("/hello1")
+    @RequestMapping("/hello")
 	public ModelAndView helloWorld1(HttpServletRequest request,  HttpServletResponse response) {
 
-		String message = "HELLO SPRING MVC HOW R U, new msg from pulkit";
+		String message = "Testing for jenkins, pulkit";
 		return new ModelAndView("hello", "message", message);
 	}
 	
